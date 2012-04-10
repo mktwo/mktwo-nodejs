@@ -1,0 +1,31 @@
+html
+	head
+		title= title
+		link(rel='stylesheet', href='/stylesheets/dos.css')
+		script(type='text/javascript')
+			window.onload=function() { document.onkeypress = returnKey; }
+			function returnKey(evt)
+			{
+				if (evt.keyCode == 13)
+				{
+					window.location = '/dos/install';
+				}
+			}
+	body
+		.content
+			h2 	#{title} Setup
+			|	============
+			p
+			b 	Welcome to Setup
+			p	
+			|	This portion of the Setup program prepares <br> JS-DOS(R)
+			|	1.0 to run on your computer.
+			|	<br /><br />
+			|	<ul>
+			|		<li> To set up JS-DOS now, press ENTER. </li>
+			|		<li> To repair a JS-DOS installation using <br>
+			|			 Recovery Console, press R. </li>
+			|		<li> To quit Setup without installing JS-DOS, press F3. </li>
+			|	</ul>
+			|	
+		footer ENTER=Continue  R=Repair  F3=Quit

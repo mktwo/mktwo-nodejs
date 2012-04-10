@@ -1,0 +1,180 @@
+body {
+  background: #333 url("../images/bg.jpg");
+  color: #444;
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  max-width: 960px;
+  min-width: 480px;
+  margin: auto;
+}
+a {
+  color: #f44;
+}
+.nav a {
+  color: #eee;
+  display: block;
+  padding: 5px;
+}
+.nav {
+  text-align: right;
+  background: #522;
+  max-height: 42px;
+  border-top-left-radius: 10px;
+  border-top: #822 2px solid;
+  border-right: #822 2px solid;
+  border-left: #822 2px solid;
+}
+.nav h1 {
+  text-shadow: #666 0 0 3px;
+  background: #ccc;
+  width: 100px;
+  text-align: center;
+  border: #eee 1px solid;
+  border-bottom: none;
+  border-top-left-radius: 10px;
+  font-size: 1em;
+  display: inline-block;
+  margin-right: 2px;
+  position: relative;
+  top: 3px;
+}
+.nav h1:hover {
+  background: #ddd;
+}
+h2 {
+  font-size: 1.15em;
+}
+.content {
+  background: #dedede;
+  margin-top: 0;
+  padding: 25px;
+  min-height: 256px;
+  height: auto;
+  border-right: #822 2px solid;
+  border-left: #822 2px solid;
+}
+.logo h1 {
+  width: 250px;
+  text-shadow: #955 0 0 3px;
+  background: #522;
+  text-align: center;
+  border: #822 2px solid;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-bottom: 0;
+  font-size: 2.5em;
+  display: inline-block;
+  color: #eee;
+  margin-top: 0;
+  margin-bottom: 50px;
+  box-shadow: #111 0 0 5px;
+}
+footer {
+  background: #522;
+  text-align: center;
+  height: 42px;
+  max-height: 32px;
+  padding-top: 11px;
+  color: #eee;
+  border-bottom-right-radius: 10px;
+  border-bottom: #822 2px solid;
+  border-right: #822 2px solid;
+  border-left: #822 2px solid;
+}
+::selection {
+  background-color: #faa;
+}
+::-moz-selection {
+  background-color: #faa;
+}
+.twitter {
+  text-align: center;
+  display: inline-block;
+  position: absolute;
+  display: none;
+  width: 80px;
+  height: 20px;
+  padding-top: 0px;
+  padding-right: 5px;
+  background: #fff;
+  border: #ddd 2px solid;
+  border-radius: 5px;
+  box-shadow: #111 0 0 5px;
+  right: 70px;
+  top: 20px;
+}
+.twitter:after {
+  content: "";
+  position: relative;
+  width: 0;
+  height: 0;
+  border-top: 15px solid #fff;
+  border-right: 7px solid transparent;
+  border-left: 7px solid transparent;
+  margin: 7px 0 0 -15px;
+  top: 35px;
+  right: 25px;
+}
+.twitter a {
+  color: #7eb3cd;
+  font-size: 0.75em;
+}
+.twit {
+  position: absolute;
+  display: block;
+  float: right;
+  width: 25px;
+  height: 25px;
+  background: #fff url("../images/twit.gif");
+  background-repeat: no-repeat;
+  background-size: 25px 25px;
+  border-radius: 25px;
+  box-shadow: #111 0 0 5px;
+  top: 60px;
+  right: 100px;
+}
+.geeklist {
+  text-align: center;
+  display: inline-block;
+  position: absolute;
+  display: none;
+  width: 80px;
+  height: 20px;
+  padding-top: 0px;
+  padding-right: 5px;
+  background: #fff;
+  border: #ddd 2px solid;
+  border-radius: 5px;
+  box-shadow: #111 0 0 5px;
+  right: 70px;
+  top: 60px;
+}
+.geeklist:after {
+  content: "";
+  position: relative;
+  width: 0;
+  height: 0;
+  border-top: 15px solid #fff;
+  border-right: 7px solid transparent;
+  border-left: 7px solid transparent;
+  margin: 7px 0 0 -15px;
+  top: 35px;
+  right: 15px;
+}
+.geeklist a {
+  color: #8cc63f;
+  font-size: 0.75em;
+}
+.gklst {
+  position: absolute;
+  display: block;
+  float: right;
+  width: 25px;
+  height: 25px;
+  background: #fff url("../images/gklst.png");
+  background-repeat: no-repeat;
+  border-radius: 25px;
+  box-shadow: #111 0 0 5px;
+  top: 100px;
+  right: 100px;
+}

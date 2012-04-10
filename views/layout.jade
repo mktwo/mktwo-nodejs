@@ -1,0 +1,26 @@
+!!!
+html
+	head
+		title= title
+		link(rel='stylesheet', href='/stylesheets/style.css')
+		|<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+		|<script type="text/javascript">
+		|	$(document).ready(function() { 
+		|		$(".twit").click(function() {
+		|			$(".twitter").toggle(150);
+		|		});
+		|	  
+		|		$(".gklst").click(function() {
+		|			$(".geeklist").toggle(150);
+		|		});
+		|	 });
+		|</script>
+	.social
+		|<a class="twit" href="#"></a><a class="gklst" href="#"></a>
+	.twitter
+		|<a href="http://twitter.com/mktwodotnet" title="@mktwodotnet">@mktwodotnet</a>
+	.geeklist
+		|<a href="http://geekli.st/mktwo" title="gklst/mktwo">gklst/mktwo</a>
+	include includes/nav
+	body!= body
+	include includes/foot
