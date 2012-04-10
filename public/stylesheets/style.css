@@ -113,7 +113,7 @@ footer {
   border-left: 7px solid transparent;
   margin: 7px 0 0 -15px;
   top: 35px;
-  right: 25px;
+  right: 27px;
 }
 .twitter a {
   color: #7eb3cd;
@@ -125,10 +125,11 @@ footer {
   float: right;
   width: 25px;
   height: 25px;
-  background: #fff url("../images/twit.gif");
+  background: #222 url("../images/twit.gif");
   background-repeat: no-repeat;
   background-size: 25px 25px;
-  border-radius: 25px;
+  border-radius: 10px;
+  border: 3px #333 solid;
   box-shadow: #111 0 0 5px;
   top: 60px;
   right: 100px;
@@ -159,7 +160,7 @@ footer {
   border-left: 7px solid transparent;
   margin: 7px 0 0 -15px;
   top: 35px;
-  right: 15px;
+  right: 18px;
 }
 .geeklist a {
   color: #8cc63f;
@@ -171,10 +172,17 @@ footer {
   float: right;
   width: 25px;
   height: 25px;
-  background: #fff url("../images/gklst.png");
+  background: #222 url("../images/gklst.png");
   background-repeat: no-repeat;
-  border-radius: 25px;
+  border-radius: 10px;
+  border: 3px #333 solid;
   box-shadow: #111 0 0 5px;
   top: 100px;
   right: 100px;
+}
+img {
+  margin: auto 25px auto;
+  box-shadow: #666 0 0 2px;
+  border-radius: 3px;
+  border: #fff 3px solid;
 }
